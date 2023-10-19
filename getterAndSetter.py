@@ -1,3 +1,12 @@
+# Podemos definir atributos y metodos privados incluyendo un _
+# Esto lo convierte en "privado", pero igual se puede acceder a ellos,
+# Y con __ se ocultan totalmente (py untenranamente re nombra el elemneto para
+# que no se pueda acceder a el.)
+
+# Y con el Getter and Sette, que no son mas que funciones o una conveccion
+# que accede o modifica a un atrubuto o metodo.
+
+
 class Persona:
     def __init__(self, nombre, edad):
         self.__nombre = nombre
